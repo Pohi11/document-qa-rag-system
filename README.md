@@ -91,14 +91,13 @@ The goal is to provide answers grounded in the uploaded documents, mitigating ha
     *   The generated answer will appear, followed by snippets from the source documents that were used as context.
 
 ## Project Structure
-rag_qa_project/
-│
-├── venv/ # Python virtual environment (usually not committed)
-├── chroma_db/ # Persisted ChromaDB vector store (created on first run)
-├── temp_uploads/ # Temporary storage for uploads during processing (deleted after)
-├── app.py # Main Streamlit application script
-├── requirements.txt # Python dependencies
-└── README.md # This file
+
+venv/ # Python virtual environment (not committed)
+chroma_db/ # Persisted ChromaDB vector store (created on first run)
+temp_uploads/ # Temporary storage for uploads during processing (deleted after)
+app.py # Main Streamlit application script
+requirements.txt # Python dependencies
+README.md # This file
 
 
 ## Potential Improvements & Future Work
