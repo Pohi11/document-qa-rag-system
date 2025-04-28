@@ -66,13 +66,18 @@ The goal is to provide answers grounded in the uploaded documents, mitigating ha
 
     # Activate it (choose the command for your OS)
     # Windows:
+    ```bash
     .\venv\Scripts\activate
+    ```
     # macOS/Linux:
+    ```bash
     source venv/bin/activate
+    ```
 
 3.  **Install Dependencies:** Create a `requirements.txt` file (as provided separately) in your project directory, then run:
+```bash
     pip install -r requirements.txt
-
+```
 
 4.  **Verify Ollama is Ready:** Run `ollama list` in your terminal again to ensure the `llama3.2` model (or the correct tag) is listed and the service is accessible.
 
@@ -95,7 +100,7 @@ The goal is to provide answers grounded in the uploaded documents, mitigating ha
 ```text
 document-qa-system/
 │
-├── venv/                  # Python virtual environment (usually not committed)
+├── venv/                  # Python virtual environment (not committed)
 ├── chroma_db/             # Persisted ChromaDB vector store (created on first run)
 ├── temp_uploads/          # Temporary storage for uploads during processing (deleted after)
 ├── app.py                 # Main Streamlit application script
