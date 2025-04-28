@@ -55,10 +55,9 @@ The goal is to provide answers grounded in the uploaded documents, mitigating ha
 
 1.  **Clone the Repository (Optional):** If you have this project in a Git repository:
     ```bash
-    git clone <your-repository-url>
-    cd rag_qa_project
+    git clone https://github.com/Pohi11/document-qa-rag-system.git
     ```
-    If not, simply navigate to your project directory (`rag_qa_project`).
+    If not, simply navigate to your project directory
 
 2.  **Create and Activate Virtual Environment:**
     # Create the virtual environment
@@ -84,7 +83,7 @@ The goal is to provide answers grounded in the uploaded documents, mitigating ha
 ## Usage
 
 1.  **Ensure Ollama is Running:** Double-check that the Ollama application or service is active with the `llama3.2` model available.
-2.  **Navigate to Project Directory:** Open your terminal in the `rag_qa_project` directory where `app.py` is located.
+2.  **Navigate to Project Directory:** Open your terminal in your directory where `app.py` is located.
 3.  **Activate Virtual Environment:** If not already active, run `source venv/bin/activate` (or the Windows equivalent).
 4.  **Run the Streamlit App:**
     streamlit run app.py
